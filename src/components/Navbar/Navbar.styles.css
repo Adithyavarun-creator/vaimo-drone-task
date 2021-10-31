@@ -1,0 +1,59 @@
+
+
+.navigations{
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(73, 73, 73) , rgb(75, 75, 70));
+    height: auto;
+    margin:0;
+    width: 100%;
+  }
+
+.list-items{
+  align-items: center;
+  text-align: center;
+  padding-left: 30px;
+  padding: 14px 16px;
+  
+}
+
+.task{
+  display: block;
+  color: rgb(16, 253, 253);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.links{
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding:8px;
+  margin:auto;
+  color: white;
+  text-align:center;
+  cursor: pointer;
+  z-index: index 1;;
+  width: 100%;
+}
+
+
+.links:hover {
+  color: rgb(255, 68, 0);
+}
+
+
+@media only screen and (max-width: 360px) {
+  .navigations{
+    overflow:visible;
+    background-image: linear-gradient(to right, rgb(73, 73, 73) , rgb(75, 75, 70));
+    height: auto;
+    margin:0;
+    width: 100%;
+  }
+
+  .links:hover {
+    color: rgb(255, 230, 7);
+  }
+}

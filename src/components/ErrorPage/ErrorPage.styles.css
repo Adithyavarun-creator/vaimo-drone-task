@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, rgb(153, 233, 153) , yellow);
+}
+
+.error-container{
+    height: auto;
+    width: auto;
+    margin: 3px;
+}
+
+
+.error-404{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(7, 7, 7);
+    border: 4px;
+    text-shadow: skyblue;
+}
+
+.error{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(7, 7, 7);
+    border: 4px;
+}
+
+.icon{
+    color: rgb(199, 0, 0);
+    height: 170px;
+    width: 100%;
+    padding-top: 30px;
+}

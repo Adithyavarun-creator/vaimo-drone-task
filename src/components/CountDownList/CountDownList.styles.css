@@ -1,0 +1,11 @@
+.font-time{
+    font-size: 20px;
+    color: forestgreen;
+    padding-top: 2px;
+    float: right;
+}
+
+.clock-icon{
+    height: 18px;
+    color:rgb(241, 214, 62);
+}

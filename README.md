@@ -1,3 +1,10 @@
+The dificulties according to me where all the items and properties where given in object structure so I was not able to easily map, so I convertedinto array and I just mapped with index of the object elements and for the total calculation part, I just got scrambled up in useReducer partand somehow I managed to make the changes in SingleProductPage js file and yet it was much competitive for me to work. If there was a quantity  array like quantity:1,would have been better to easily map the quantity for each options of 4k,1080p and battery, so that made me to take a long time to work and I  made the functionality to work in direct component.The reviews get map once when you keep on refreshing the task page. I added some extra product info in order to make some changes and make much more attractive to look I learned how to use timer from youtube videos and implemented it.Login and logout functions are activated import the task page. The task page is been provided with a PrivateRoute, so do not forget to check it
+
+So the project can run with "npm run" successfully 
+There are totally 5 pages Product Page,ErrorPage,SignIn Page About Page and Task Page,
+The task page can be accessed only when you login with Auth0
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

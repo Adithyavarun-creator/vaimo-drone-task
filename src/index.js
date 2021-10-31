@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ProductProvider} from './context/product-context'
+import { Auth0Provider } from "@auth0/auth0-react";
+import {UserProvider} from './context/user-context'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Auth0Provider
+     domain="comfystore.us.auth0.com"
+     clientId="YtnXpiK15orzLfYRpGVhMAn90D5b4Sh0"
+     redirectUri={window.location.origin}
+     cacheLocation="localstorage"
+   >
+     <UserProvider>
+  <ProductProvider>
     <App />
-  </React.StrictMode>,
+  </ProductProvider>
+  </UserProvider>
+  </Auth0Provider>,
   document.getElementById('root')
 );
 

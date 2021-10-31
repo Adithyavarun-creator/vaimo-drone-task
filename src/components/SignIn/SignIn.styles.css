@@ -1,0 +1,57 @@
+.sign-in{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header-content{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sign-in-btn{
+    appearance: none;
+    background-color:rgb(253, 249, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 50px;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+  }
+  
+  .sign-in-btn:disabled {
+    pointer-events: none;
+  }
+  
+  .sign-in-btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .sign-in-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .credentials{
+      font-size: 23px;
+      color: rgb(255, 71, 4);
+  }

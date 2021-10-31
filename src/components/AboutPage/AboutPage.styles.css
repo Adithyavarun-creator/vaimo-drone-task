@@ -1,0 +1,26 @@
+.container-box{
+    height:fit-content;
+    display: block;
+    width: fit-content;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.header-title{
+    font-weight: double;
+    font-size:26px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.about-me{
+    margin-right: 12px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.footer{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

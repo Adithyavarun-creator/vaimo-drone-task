@@ -1,0 +1,110 @@
+body{
+  background: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, rgb(153, 233, 153) , yellow);
+}
+
+.item{
+  height: auto;
+  width: 100%;
+  margin-top: auto;
+}
+
+
+.product-article{
+  display: inline-block;
+  inline-size: auto;
+  border-radius: 5px;
+  border: rgb(124, 228, 20);
+  padding-bottom: 3px;
+  box-sizing:content-box;
+  margin-inline-start: 8px;
+  height: 80%;
+  block-size: auto;
+  width: 30%;
+  padding: 5px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 4rem;
+  justify-content: flex-start;
+  row-gap: 3px; 
+}
+
+
+.image-view{
+  height: 100px;
+  width: 30%;
+  justify-content: center;
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+.image-view:hover{
+	transform: scale(1.2);
+}
+
+
+
+.category{
+  color: rgb(12, 8, 245);
+  text-transform: capitalize;
+}
+
+.buttons{
+  padding: 10px 8px;
+  color: rgb(29, 255, 8);
+  background:black;
+  height: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border:dotted;
+}
+
+.star-icon{
+  color: green;
+}
+
+@media only screen and (max-width: 360px) {
+  body{
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(153, 233, 153) , yellow);
+  }
+
+  .product-article{
+    display: inline-block;
+    inline-size: auto;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    box-sizing:content-box;
+    height: 100%;
+    width:auto;
+    margin:3px;
+    box-sizing: border-box;
+    border: 5px solid;
+    border-color: rgb(8, 8, 8);
+    padding: 5px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    justify-content: flex-start;
+  }
+  
+  .image-view{
+    height: 100px;
+    margin: 3px;
+    width: fit-content;
+    cursor: pointer;
+
+  }
+
+  .buttons{
+    padding: 8px 8px;
+    color: rgb(29, 255, 8);
+    background:black;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    border:dotted;
+  }
+  
+}
